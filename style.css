@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@400;500&family=Kaushan+Script&family=Lato:wght@300&family=Pacifico&family=Playfair+Display:ital@0;1&family=Rubik+Burned&family=Salsa&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Satisfy&display=swap');
+body{
+    background-color: black;
+    color:white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 20px;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: rgb(170, 141, 157);
+    align-items: center;
+    margin: 10px;
+}
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-right{
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    gap:30%;
+ 
+}
+.img1{
+    height:25px;
+}
+.shs{
+    font-size: 50px;
+    margin:30px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color:black;
+}
+a{
+    margin:10px;
+}
+.btn{
+    background-color: black;
+    height: 5vh;
+    width:80px;
+    color:white;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    height:80vh;
+    justify-content:space-between;
+    align-items:center ;
+    
+}
+.img2{
+    height: 400px;
+}
+.home-right{
+    width: 50vw;
+    padding-left:100px;
+}
+.home-left{
+    width:50vw;
+    padding-left:200px;
+    text-align: right;
+}
+.h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:rgb(140, 127, 13);
+    font-family: 'Satisfy', cursive;
+}
+.p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.resume{
+    text-decoration: none ;
+    background-color: black;
+    color:white;
+    height:20px;
+    width:30px;
+    padding: 10px;
+}
+.hire{
+    margin-top: 20%;
+    border: 3px black solid;
+    background-color: rgb(170, 141, 157);
+    padding: 12px; 
+    margin-top:7%;   
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
